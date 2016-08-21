@@ -1,0 +1,23 @@
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\bin\Debug\SplashScreen.dll
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\bin\Debug\SplashScreen.pdb
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\obj\Debug\SplashScreen.SplashScreen.resources
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\obj\Debug\SplashScreen.dll
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\obj\Debug\SplashScreen.pdb
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\bin\Debug\SplashScreen.dll
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\bin\Debug\SplashScreen.pdb
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.SplashScreen.resources
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.dll
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.pdb
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\bin\Debug\SplashScreen.dll
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\bin\Debug\SplashScreen.pdb
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.SplashScreen.resources
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.dll
+F:\Projects\PTPCo\Projects\Programming\Global Projects\SPECIFICCOMPILES\Amir Abad\WLDataReceive\SplashScreen\obj\Debug\SplashScreen.pdb

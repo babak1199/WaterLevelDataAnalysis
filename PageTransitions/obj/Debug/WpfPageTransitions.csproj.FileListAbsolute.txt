@@ -1,0 +1,13 @@
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\bin\Debug\WpfPageTransitions.dll
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\bin\Debug\WpfPageTransitions.pdb
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.csprojResolveAssemblyReference.cache
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\PageTransition.g.cs
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions_MarkupCompile.cache
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions_MarkupCompile.lref
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\PageTransition.baml
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.g.resources
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.Properties.Resources.resources
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.csproj.GenerateResource.Cache
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.dll
+H:\NEW\Programming\Codeplex\WPF Page Transition\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.pdb

@@ -1,0 +1,13 @@
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\PageTransition.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\WpfPageTransitions_MarkupCompile.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\WpfPageTransitions_MarkupCompile.lref
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\WpfPageTransitions.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\bin\Debug\WpfPageTransitions.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\bin\Debug\WpfPageTransitions.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\PageTransition.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\WpfPageTransitions.g.resources
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\WpfPageTransitions.Properties.Resources.resources
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\PageTransitions.csproj.GenerateResource.Cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\WpfPageTransitions.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\PageTransitions\obj\Debug\PageTransitions.csprojResolveAssemblyReference.cache

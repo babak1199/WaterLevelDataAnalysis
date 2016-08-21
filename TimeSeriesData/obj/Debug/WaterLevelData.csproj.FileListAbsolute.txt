@@ -1,0 +1,10 @@
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\TimeSeriesData\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\TimeSeriesData\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\TimeSeriesData\obj\Debug\WaterLevelData.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\TimeSeriesData\obj\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\TimeSeriesData\obj\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TimeSeriesData\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TimeSeriesData\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TimeSeriesData\obj\Debug\WaterLevelData.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TimeSeriesData\obj\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TimeSeriesData\obj\Debug\WaterLevelData.pdb

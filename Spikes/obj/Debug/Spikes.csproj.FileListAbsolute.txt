@@ -1,0 +1,11 @@
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\obj\Debug\Spikes.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\Spikes.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\Spikes.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\TrendLine.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\Statistics.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\TrendLine.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\bin\Debug\Statistics.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\obj\Debug\Spikes.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Spikes\obj\Debug\Spikes.pdb

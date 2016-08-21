@@ -1,0 +1,9 @@
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\bin\Debug\TestIt.exe
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\bin\Debug\TestIt.pdb
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\bin\Debug\SplashScreen.dll
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\bin\Debug\SplashScreen.pdb
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\obj\Debug\TestIt.csprojResolveAssemblyReference.cache
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\obj\Debug\SplashScreen.Form1.resources
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\obj\Debug\TestIt.csproj.GenerateResource.Cache
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\obj\Debug\TestIt.exe
+E:\Sample Programs\C#\CodeProject.com\A Pretty Good Splash Screen in C#\PrettyGoodSplashScreenCode\SplashScreen\TestIt\obj\Debug\TestIt.pdb

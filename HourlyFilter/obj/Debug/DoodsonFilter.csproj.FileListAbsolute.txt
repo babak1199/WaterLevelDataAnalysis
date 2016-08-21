@@ -1,0 +1,18 @@
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\obj\Debug\DoodsonFilter.csprojResolveAssemblyReference.cache
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\DoodsonFilter.dll
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\DoodsonFilter.pdb
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\obj\Debug\DoodsonFilter.dll
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\obj\Debug\DoodsonFilter.pdb
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\ExtensionMethods.dll
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\ExtensionMethods.pdb
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\AWACData.dll
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\AWACData.pdb
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\GeneralWind.GeneralWindData.dll
+F:\Akbarzadeh\Projects\Programming\TSCreator\DoodsonFilter\bin\Debug\GeneralWind.GeneralWindData.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\DoodsonFilter.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\DoodsonFilter.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\obj\Debug\DoodsonFilter.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\obj\Debug\DoodsonFilter.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\obj\Debug\DoodsonFilter.pdb

@@ -1,0 +1,37 @@
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\bin\Debug\WpfToolkitChart.exe
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\bin\Debug\WpfToolkitChart.pdb
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\bin\Debug\WPFToolkit.dll
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\bin\Debug\WPFToolkit.pdb
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.csprojResolveAssemblyReference.cache
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\MainWindow.baml
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\MainWindow.g.cs
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\App.g.cs
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart_MarkupCompile.cache
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.g.resources
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.Properties.Resources.resources
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.csproj.GenerateResource.Cache
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.exe
+E:\Sample Programs\C#\CodeProject.com\WPF Toolkit Charting Controls (Line, Bar, Area, Pie, Column Series) Demo\WpfToolkitChart\WpfToolkitChart\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.pdb
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.exe
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.pdb
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\WpfToolkitChart.exe
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\WpfToolkitChart.pdb
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\WPFToolkit.dll
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\WPFToolkit.pdb
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.csprojResolveAssemblyReference.cache
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\MainWindow.baml
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\MainWindow.g.cs
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\App.g.cs
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart_MarkupCompile.cache
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.g.resources
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.Properties.Resources.resources
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.csproj.GenerateResource.Cache
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\DynamicDataDisplay.dll
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\DynamicDataDisplay.pdb
+F:\Projects\PTPCo\Projects\Programming\Test\ChartTest\WpfToolkitChart\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.exe
+F:\Projects\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\WpfToolkitChart\obj\x86\Debug\WpfToolkitChart.pdb

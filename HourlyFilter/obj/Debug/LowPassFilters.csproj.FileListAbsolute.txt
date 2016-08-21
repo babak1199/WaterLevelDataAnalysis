@@ -1,0 +1,7 @@
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\LowPassFilters.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\LowPassFilters.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\obj\Debug\LowPassFilters.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\obj\Debug\LowPassFilters.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\HourlyFilter\obj\Debug\LowPassFilters.csprojResolveAssemblyReference.cache

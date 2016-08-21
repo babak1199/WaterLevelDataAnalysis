@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreen", "SplashScreen.csproj", "{743EDB81-D2AC-4A52-A313-50BD4229401B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIt", "TestIt\TestIt.csproj", "{9F926100-1579-4A7F-B0C9-05DC18342106}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{743EDB81-D2AC-4A52-A313-50BD4229401B}.Debug.ActiveCfg = Debug|.NET
+		{743EDB81-D2AC-4A52-A313-50BD4229401B}.Debug.Build.0 = Debug|.NET
+		{743EDB81-D2AC-4A52-A313-50BD4229401B}.Release.ActiveCfg = Release|.NET
+		{743EDB81-D2AC-4A52-A313-50BD4229401B}.Release.Build.0 = Release|.NET
+		{9F926100-1579-4A7F-B0C9-05DC18342106}.Debug.ActiveCfg = Debug|.NET
+		{9F926100-1579-4A7F-B0C9-05DC18342106}.Debug.Build.0 = Debug|.NET
+		{9F926100-1579-4A7F-B0C9-05DC18342106}.Release.ActiveCfg = Release|.NET
+		{9F926100-1579-4A7F-B0C9-05DC18342106}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

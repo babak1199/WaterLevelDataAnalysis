@@ -1,0 +1,9 @@
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\bin\Debug\WaterLevelDataLoader.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\bin\Debug\WaterLevelDataLoader.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\obj\Debug\WaterLevelDataLoader.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\obj\Debug\WaterLevelDataLoader.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\obj\Debug\WaterLevelDataLoader.pdb
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\bin\Debug\LowPassFilters.dll
+F:\PTPCo\Projects\Programming\Small Projects\ConvertData5Hourly\WaterLevelDataLoader\bin\Debug\LowPassFilters.pdb

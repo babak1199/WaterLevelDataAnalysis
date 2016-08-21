@@ -1,0 +1,9 @@
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\obj\Debug\TrendLine.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\bin\Debug\TrendLine.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\bin\Debug\TrendLine.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\bin\Debug\Statistics.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\bin\Debug\WaterLevelData.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\bin\Debug\Statistics.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\bin\Debug\WaterLevelData.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\obj\Debug\TrendLine.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\TrendLine\obj\Debug\TrendLine.pdb

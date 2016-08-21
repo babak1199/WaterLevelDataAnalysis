@@ -1,0 +1,66 @@
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\sln\DynamicDataDisplay\Debug\bin\DynamicDataDisplay.dll
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\sln\DynamicDataDisplay\Debug\bin\DynamicDataDisplay.pdb
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\sln\DynamicDataDisplay\Debug\bin\ru-ru\DynamicDataDisplay.resources.dll
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.csprojResolveAssemblyReference.cache
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\MagnifyingGlass.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Isolines\IsolineTrackingGraph.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Legend.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\LineLegendItem.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Navigation\AboutWindow.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Navigation\CursorCoordinateGraph.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Shapes\DraggablePoint.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\ViewportListView.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\MagnifyingGlass.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay_MarkupCompile.cache
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay_MarkupCompile.lref
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Isolines\IsolineTrackingGraph.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Legend.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\LineLegendItem.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Axes\AxisControlStyle.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Navigation\AboutWindow.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Navigation\CursorCoordinateGraph.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Shapes\DraggablePoint.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\Shapes\RangeHighlightStyle.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Charts\ViewportListView.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Common\PlotterStyle.baml
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.g.resources
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Microsoft.Research.DynamicDataDisplay.Properties.Resources.resources
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\Microsoft.Research.DynamicDataDisplay.Properties.Resources.ru-ru.resources
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.csproj.GenerateResource.Cache
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\ru-ru\DynamicDataDisplay.resources.dll
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.dll
+H:\NEW\Programming\Codeplex\D3 Dynamic Data Display (chart & graph and more)\dynamicdatadisplay-94877\Stable\v0.3.1\src\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Debug\bin\DynamicDataDisplay.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Debug\bin\DynamicDataDisplay.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Debug\bin\ru-ru\DynamicDataDisplay.resources.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\MagnifyingGlass.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Isolines\IsolineTrackingGraph.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Legend.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\LineLegendItem.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Navigation\AboutWindow.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Navigation\CursorCoordinateGraph.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Shapes\DraggablePoint.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\ViewportListView.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\MagnifyingGlass.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay_MarkupCompile.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay_MarkupCompile.lref
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Isolines\IsolineTrackingGraph.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Legend.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\LineLegendItem.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Axes\AxisControlStyle.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Navigation\AboutWindow.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Navigation\CursorCoordinateGraph.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Shapes\DraggablePoint.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\Shapes\RangeHighlightStyle.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Charts\ViewportListView.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Common\PlotterStyle.baml
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.g.resources
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Microsoft.Research.DynamicDataDisplay.Properties.Resources.resources
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\Microsoft.Research.DynamicDataDisplay.Properties.Resources.ru-ru.resources
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.csproj.GenerateResource.Cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\ru-ru\DynamicDataDisplay.resources.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\DynamicDataDisplay\obj\Debug\DynamicDataDisplay.pdb

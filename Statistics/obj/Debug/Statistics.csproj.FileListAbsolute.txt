@@ -1,0 +1,5 @@
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Statistics\bin\Debug\Statistics.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Statistics\bin\Debug\Statistics.pdb
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Statistics\obj\Debug\Statistics.csprojResolveAssemblyReference.cache
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Statistics\obj\Debug\Statistics.dll
+F:\PTPCo\Projects\Programming\Global Projects\WLDataAnalysis\Statistics\obj\Debug\Statistics.pdb

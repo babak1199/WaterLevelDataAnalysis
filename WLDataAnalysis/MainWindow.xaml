@@ -1,0 +1,391 @@
+﻿<Window x:Class="WLDataAnalysis.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:pageTransitions="clr-namespace:WpfPageTransitions;assembly=WpfPageTransitions"
+    Title="Water Level Data Analysis" Height="600" Width="800" Loaded="Window_Loaded" Icon="TimeSeries2.ico">
+
+    <Window.Resources>
+        <ControlTemplate x:Key="ExpanderToggleButton" TargetType="ToggleButton">
+        <Border
+            Name="Border" 
+            CornerRadius="2,0,0,0"
+            Background="Transparent"
+            BorderBrush="{StaticResource NormalBorderBrush}"
+            BorderThickness="0,0,1,0">
+            <Path 
+                Name="Arrow"
+                Fill="{StaticResource GlyphBrush}"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Data="M 0 0 L 4 4 L 8 0 Z"/>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="ToggleButton.IsMouseOver" Value="true">
+                <Setter TargetName="Border" Property="Background"
+              Value="{StaticResource DarkBrush}" />
+            </Trigger>
+            <Trigger Property="IsPressed" Value="true">
+                <Setter TargetName="Border" Property="Background"
+              Value="{StaticResource PressedBrush}" />
+            </Trigger>
+            <Trigger Property="IsChecked" Value="true">
+                <Setter TargetName="Arrow" Property="Data"
+              Value="M 0 4 L 4 0 L 8 4 Z" />
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="Border" Property="Background"
+              Value="{StaticResource DisabledBackgroundBrush}" />
+                <Setter TargetName="Border" Property="BorderBrush"
+              Value="{StaticResource DisabledBorderBrush}" />
+                <Setter Property="Foreground"
+              Value="{StaticResource DisabledForegroundBrush}"/>
+                <Setter TargetName="Arrow" Property="Fill"
+              Value="{StaticResource DisabledForegroundBrush}" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+        <Style TargetType="Expander">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Expander">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Name="ContentRow" Height="0"/>
+                        </Grid.RowDefinitions>
+                        <Border 
+            Name="Border" 
+            Grid.Row="0" 
+            Background="{StaticResource LightBrush}"
+            BorderBrush="{StaticResource NormalBorderBrush}"
+            BorderThickness="1" 
+            CornerRadius="2,2,0,0" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <ToggleButton
+                IsChecked="{Binding Path=IsExpanded,Mode=TwoWay,
+                                    RelativeSource={RelativeSource TemplatedParent}}"
+                OverridesDefaultStyle="True" 
+                Template="{StaticResource ExpanderToggleButton}" 
+                Background="{StaticResource NormalBrush}" />
+                                <ContentPresenter 
+                Grid.Column="1"
+                Margin="4" 
+                ContentSource="Header" 
+                RecognizesAccessKey="True" />
+                            </Grid>
+                        </Border>
+                        <Border 
+            Name="Content" 
+            Grid.Row="1" 
+            Background="{StaticResource WindowBackgroundBrush}"
+            BorderBrush="{StaticResource SolidBorderBrush}" 
+            BorderThickness="1,0,1,1" 
+            CornerRadius="0,0,2,2" >
+                            <ContentPresenter Margin="4" />
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsExpanded" Value="True">
+                            <Setter TargetName="ContentRow" Property="Height"
+                    Value="{Binding ElementName=Content,Path=DesiredHeight}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="Border" Property="Background"
+                    Value="{StaticResource DisabledBackgroundBrush}" />
+                            <Setter TargetName="Border" Property="BorderBrush"
+                    Value="{StaticResource DisabledBorderBrush}" />
+                            <Setter Property="Foreground"
+                    Value="{StaticResource DisabledForegroundBrush}"/>
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="SnapsToDevicePixels" Value="true"/>
+            <Setter Property="OverridesDefaultStyle" Value="true"/>
+            <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+            <Setter Property="MinHeight" Value="23"/>
+            <Setter Property="MinWidth" Value="75"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border 
+          x:Name="Border"  
+          CornerRadius="2" 
+          BorderThickness="1"
+          Background="{StaticResource NormalBrush}"
+          BorderBrush="{StaticResource NormalBorderBrush}">
+                            <ContentPresenter 
+            Margin="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            RecognizesAccessKey="True"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource DefaultedBorderBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource DefaultedBorderBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource DarkBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource PressedBrush}" />
+                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource PressedBorderBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource DisabledBackgroundBrush}" />
+                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource DisabledBorderBrush}" />
+                                <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="ToggleButton">
+            <Setter Property="Background" Value="#FF1F3B53"/>
+            <Setter Property="Foreground" Value="#FF000000"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFA3AEB9" Offset="0"/>
+                        <GradientStop Color="#FF8399A9" Offset="0.375"/>
+                        <GradientStop Color="#FF718597" Offset="0.375"/>
+                        <GradientStop Color="#FF617584" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity" To="1"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)" To="#F2FFFFFF"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)" To="#CCFFFFFF"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[3].(GradientStop.Color)" To="#7FFFFFFF"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="Background" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" To="#FF6DBDD1"/>
+                                            <DoubleAnimation Duration="0" Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity" To="1"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)" To="#D8FFFFFF"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)" To="#C6FFFFFF"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)" To="#8CFFFFFF"/>
+                                            <ColorAnimation Duration="0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(GradientBrush.GradientStops)[3].(GradientStop.Color)" To="#3FFFFFFF"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" Storyboard.TargetName="DisabledVisualElement" Storyboard.TargetProperty="Opacity" To=".55"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="CheckStates">
+                                    <VisualState x:Name="Checked">
+                                        <Storyboard>
+                                            <PointAnimation Duration="0" To="0.7,1" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(LinearGradientBrush.StartPoint)"/>
+                                            <PointAnimation Duration="0" To="0.7,0" Storyboard.TargetName="BackgroundGradient" Storyboard.TargetProperty="(Rectangle.Fill).(LinearGradientBrush.EndPoint)"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unchecked"/>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" Storyboard.TargetName="FocusVisualElement" Storyboard.TargetProperty="Opacity" To="1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused" />
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Background" CornerRadius="3" Background="White" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}">
+                                <Grid Background="{TemplateBinding Background}"  Margin="1">
+                                    <Border Opacity="0"  x:Name="BackgroundAnimation" Background="#FF448DCA" />
+                                    <Rectangle x:Name="BackgroundGradient" >
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush StartPoint=".7,0" EndPoint=".7,1">
+                                                <GradientStop Color="#FFFFFFFF" Offset="0" />
+                                                <GradientStop Color="#F9FFFFFF" Offset="0.375" />
+                                                <GradientStop Color="#E5FFFFFF" Offset="0.625" />
+                                                <GradientStop Color="#C6FFFFFF" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </Border>
+                            <ContentPresenter
+                              x:Name="contentPresenter"
+                              Content="{TemplateBinding Content}"
+                              ContentTemplate="{TemplateBinding ContentTemplate}"
+                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                              Margin="{TemplateBinding Padding}"/>
+                            <Rectangle x:Name="DisabledVisualElement" RadiusX="3" RadiusY="3" Fill="#FFFFFFFF" Opacity="0" IsHitTestVisible="false" />
+                            <Rectangle x:Name="FocusVisualElement" RadiusX="2" RadiusY="2" Margin="1" Stroke="#FF6DBDD1" StrokeThickness="1" Opacity="0" IsHitTestVisible="false" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <pageTransitions:PageTransition Name="pageTransitionControl" Grid.Row="1" Grid.Column="1" TransitionType="SlideAndFade" />
+
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
+            <StackPanel>
+                <TextBlock TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Water Level Data Analysis" Foreground="Crimson" FontWeight="Bold" FontSize="20">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FF3E3E3E" Direction="201" Opacity="0.68" ShadowDepth="3" BlurRadius="6"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+
+                <Expander Header="Import Data" IsExpanded="True" BorderBrush="Black" BorderThickness="2" 
+                                  Margin="0,10,0,10">
+                    <StackPanel Margin="5,5,5,5">
+                        <Button Content="Open" Click="OnOpenDataClicked" ToolTip="Select an input file to import"/>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="Validate Data" IsExpanded="False" BorderBrush="Black" BorderThickness="2" 
+                      Margin="0,10,0,10">
+                    <StackPanel Margin="5,5,5,5">
+                        <GroupBox Header="Method">
+                            <StackPanel>
+                                <RadioButton Name="chkFromSensorElevation" Content="From Sensor Elevation" Margin="0,5,0,5" Click="OnchkSensorElevationClicked"/>
+                                <RadioButton Name="chkFromCurveAverage" Content="From Curve Average" IsChecked="True" Margin="0,0,0,5" Click="OnCurveAverageClicked"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Parameters">
+                            <StackPanel>
+                                <DockPanel Name="pSensorElevation" IsEnabled="False" Margin="0,5,0,5">
+                                    <TextBlock Name="tSensorElevation" Text="Sensor Elevation:"/>
+                                    <StackPanel Orientation="Vertical">
+                                        <DockPanel>
+                                            <RadioButton Name="rbSensorElevationAuto" Content="Auto" IsChecked="True" GroupName="SensorElevation" Click="OnRBSensorElevationAutoClicked" />
+                                            <TextBox Name="tbSensorElevationAuto" Text="" Width="50" TextAlignment="Right" HorizontalAlignment="Right"/>
+                                        </DockPanel>
+                                        <DockPanel>
+                                            <RadioButton Name="rbSensorElevationManual" Content="Manual" GroupName="SensorElevation" Click="OnRBSensorElevationManualClicked" />
+                                            <TextBox Name="tbSensorElevationManual" Text="-3.51" Width="50" TextAlignment="Right" HorizontalAlignment="Right"/>
+                                        </DockPanel>
+                                    </StackPanel>
+                                </DockPanel>
+                                <DockPanel Name="pShapeFunc" IsEnabled="False" Margin="0,0,0,5">
+                                    <TextBlock Text="Average Point No:"/>
+                                    <TextBox Name="tbShapeFuncPointNo" Text="3" Width="50" TextAlignment="Right" HorizontalAlignment="Right"/>
+                                </DockPanel>
+                                <DockPanel Margin="0,0,0,5">
+                                    <TextBlock Text="Max Level Variation:"/>
+                                    <TextBox Name="tbMaximumLevelVariation" Text="0.30" Width="50" TextAlignment="Right" HorizontalAlignment="Right"/>
+                                </DockPanel>
+                            </StackPanel>
+                        </GroupBox>
+                        <Button x:Name="btnCheckInvalid" Content="Check Invalid Data" Margin="0,5,0,0" Click="OnCheckInvalidDataClicked" IsEnabled="False"/>
+                        <Button x:Name="btnRefineData" Content="Remove Invalid Data" Margin="0,5,0,0" Click="OnRefineDataClicked" IsEnabled="False"/>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="Remove Spikes" IsExpanded="False" BorderBrush="Black" BorderThickness="2" 
+                                  Margin="0,10,0,10">
+                    <StackPanel Margin="5,5,5,5">
+                        <GroupBox Header="Parameters">
+                            <StackPanel>
+                                <DockPanel Margin="0,5,0,5" Name="pThreshold" IsEnabled="False">
+                                    <TextBlock Text="Threshold:"/>
+                                    <TextBox Name="tbMaxContinuityThreshold" Text="0.06" Width="50" TextAlignment="Right" HorizontalAlignment="Right"/>
+                                </DockPanel>
+                                <DockPanel Margin="0,0,0,5" Name="pPercentile">
+                                    <TextBlock Text="Percentile:"/>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                        <TextBox Name="tbPercentile" Text="80" Width="40" TextAlignment="Right"/>
+                                        <TextBlock Text="%"/>
+                                    </StackPanel>
+                                </DockPanel>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Method" Margin="0,5,0,0">
+                            <StackPanel>
+                                <RadioButton Name="rbDespikeSpike" Content="By Spikes identification" Margin="0,5,0,5" IsChecked="True" Click="OnRBSpikeIdentificationClicked" />
+                                <RadioButton Name="rbDespikeDifference" Content="By difference calculation" Margin="0,0,0,5" Click="OnRBDifferenceCalcClicked"/>
+                                <RadioButton Name="rbDespikeMovAverage" Content="By Trend Line Spike Identification" IsChecked="True" Margin="0,0,0,5" Click="OnRBTrendLineClicked"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <Button x:Name="btnFindSpikes" Content="Find Spikes" Margin="0,5,0,0" Click="OnFindSpikesClicked" IsEnabled="False"/>
+                        <Button x:Name="btnDespike" Content="Despike" Margin="0,5,0,0" Click="OnDespikeClicked" IsEnabled="False"/>
+                    </StackPanel>
+                </Expander>
+
+                <Expander Header="Export Results" IsExpanded="False" BorderBrush="Black" BorderThickness="2" 
+                                  Margin="0,10,0,10">
+                    <StackPanel Margin="5,5,5,5">
+                        <GroupBox Header="Reduce" Margin="0,5,0,0">
+                            <StackPanel>
+                                <RadioButton Name="rbAllResult" Content="All results" Margin="0,5,0,5" IsChecked="True" Click="OnRBAllResult_Clicked" GroupName="result"/>
+                                <RadioButton Name="rbHourlyResult" Content="Hourly" Margin="0,0,0,5" Click="OnRBHourlyResult_Clicked" GroupName="result"/>
+                                <RadioButton Name="rbHourlyLowPassResult" Content="Hourly (Low-pass)" Margin="0,0,0,5" Click="OnRBHourlyResult_Clicked" GroupName="result"/>
+                                <RadioButton Name="rbDailyResult" Content="Daily" Margin="0,0,0,5" Click="OnRBDailyResult_Clicked" GroupName="result"/>
+                                <RadioButton Name="rbMonthlyResult" Content="Monthly" Margin="0,0,0,5" Click="OnRBMonthlyResult_Clicked" GroupName="result"/>
+                                <DockPanel>
+                                    <RadioButton Name="rbCustomResult" Content="Custom" VerticalAlignment="Center" Click="OnRBCustomResult_Clicked" GroupName="result"/>
+                                    <StackPanel Name="pCustomResult" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Visibility="Hidden">
+                                        <TextBox Name="tbCustomResult" Text="5" Width="50" TextAlignment="Right"/>
+                                        <ComboBox Name="cbCustomresult"/>
+                                    </StackPanel>
+                                </DockPanel>
+                            </StackPanel>
+                        </GroupBox>
+
+                        <Button x:Name="btnWriteOutput" Content="Export Results ..." Margin="0,5,0,0" Click="OnWriteOutputData" IsEnabled="False"/>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="Options" IsExpanded="True" BorderBrush="Black" BorderThickness="2" 
+                                  Margin="0,10,0,10">
+                    <StackPanel Margin="5,5,5,5">
+                        <GroupBox Header="Charts" Margin="0,5,0,0">
+                            <StackPanel>
+                                <CheckBox Name="chkKeepOldCharts" Content="Keep old chart while drawing new" Margin="0,5,0,5" IsChecked="True"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Environment" Margin="0,5,0,0">
+                            <StackPanel>
+                                <CheckBox Name="chkIsExpanded" Content="All expanders open on startup" Margin="0,5,0,5"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </Expander>
+                <Button x:Name="btnShowHideMarkers" Content="Show/Hide Markers" Margin="0,5,0,5" Click="ShowHideMarkerClicked" IsEnabled="False"/>
+                <Button Content="Reset All" Margin="0,0,0,5" Click="OnResetAllClicked"/>
+                <ToggleButton Name="btnAbout" Content="About" Height="60" Margin="0,5,0,5" Click="OnBtnAboutClicked"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
