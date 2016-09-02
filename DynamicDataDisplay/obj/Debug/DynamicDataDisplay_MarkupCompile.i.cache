@@ -16,5 +16,5 @@ TRACE;DEBUG;CODE_ANALYSIS
 8-1526339574
 Charts\Isolines\IsolineTrackingGraph.xaml;Charts\Legend.xaml;Charts\LineLegendItem.xaml;Charts\Axes\AxisControlStyle.xaml;Charts\Navigation\AboutWindow.xaml;Charts\Navigation\CursorCoordinateGraph.xaml;Charts\Shapes\DraggablePoint.xaml;Charts\Shapes\RangeHighlightStyle.xaml;Charts\ViewportListView.xaml;Common\PlotterStyle.xaml;Charts\MagnifyingGlass.xaml;
 
-True
+False
 
