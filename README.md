@@ -1,5 +1,5 @@
 # WaterLevelDataAnalysis
-This application has been originally designed to load water level data measured by different water level gauges
+This application has been originally designed to load water level data measured by a few different water level sensors
 from several file formats -- i.e. txt, csv, and dat. This data will then be displayed on a chart and can be refined
 or despike using some mathematical methods.
 
